@@ -1,12 +1,10 @@
 ########################## hero area ##########################
 hero:
-  title : "I'm Somrat Sorkar"
+  title : "I'm Daria Thompson"
 
   # animated text loop
   occupations:
-    - "Web Developer"
-    - "Graphic Designer"
-    - "Database Manager"
+    - "Full - Stack Developer"
 
   # slider background image loop
   slider_image:
@@ -25,8 +23,8 @@ hero:
 fullscreen_nav:
   enable : true
   bg_image : "images/backgrounds/full-nav-bg.jpg"
-  first_name : "MacGyver"
-  last_name : "SOMRAT"
+  first_name : "Daria"
+  last_name : "Thompson"
   
 
 ########################### About ##################################
@@ -34,7 +32,7 @@ about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
   title : "KNOW MORE <br> ABOUT ME"
-  content : "It's Somrat, Professional Web Developer. I love to write code, it's my passoin. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.<br>No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connect with me............😊"
+  content : "It's Daria Thompson, Full Stack Developer. I love to write code, it's my passoin. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.<br>No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connect with me............😊"
   # button
   button:
     enable : true
@@ -47,22 +45,18 @@ experience:
   title : "EXPERIENCE"
   experience_list:
     # experience item loop
-    - name : "Web Developer"
-      company : "Fiverr.com"
-      duration : "2016-2018"
-      content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
+    - name : "Full-Stack Developer"
+      company : "Freelance"
+      duration : "May 2020 - present"
+      content : "I work on projects using JavaScript, Ruby on Rails, React.js, "
+      
+    
       
     # experience item loop
-    - name : "Graphic Designer"
-      company : "Fiverr.com"
-      duration : "2015-2018"
-      content : "Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
-      
-    # experience item loop
-    - name : "Database Manager"
-      company : "Polytechnic"
-      duration : "2014-2018"
-      content : "Database management is among the fundamental processes in the software field of computing. I know MS Access very well."
+    - name : "Sales Administrator"
+      company : "Belyi Irbis"
+      duration : "2016-2019"
+      content : "Sales Administrator"
 
 
 ############################### Skill #################################
