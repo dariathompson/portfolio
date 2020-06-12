@@ -249,16 +249,16 @@
       {{ end }}
     </div>
     <div class="row experience-skill">
-      {{ if $data.homepage.experience.enable }}
-      {{ with $data.homepage.experience }}
+      {{ if $data.homepage.education.enable }}
+      {{ with $data.homepage.education }}
       <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
         <h3>{{ .title }}</h3>
         <ul class="experience-chart">
-          {{ range .experience_list }}
+          {{ range .education_list }}
           <li>
             <div class="single-experience">
-              <h4>{{ .name | markdownify }}</h4>
-              {{ with .company }} <span>{{ . | markdownify }}</span> {{ end }}
+              <h4>{{ .school | markdownify }}</h4>
+              {{ with .name }} <span>{{ . | markdownify }}</span> {{ end }}<br>
               {{ with .duration }} <span>{{ . | markdownify }}</span> {{ end }}
               {{ with .content }} <p>{{ . | markdownify}}</p> {{ end }}
             </div>
@@ -269,24 +269,7 @@
       {{ end }}
       {{ end }}
 
-      {{ if $data.homepage.skill.enable }}
-      {{ with $data.homepage.skill }}
-      <div class="col-lg-6 col-sm-6 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
-        <h3>{{ .title }}</h3>
-        <div class="skill-progress-bar">
-          {{ range .skill_list }}
-          <div class="clearfix">
-            <span class="skillbar-title">{{ .name }}</span>
-            <span class="skill-bar-percent">{{ .parcentage }}</span>
-            <div class="skillbar" data-percent="{{ .parcentage }}">
-              <div class="skillbar-bar"></div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-      {{ end }}
+    
     </div>
   </div>
 </section>
